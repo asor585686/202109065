@@ -1,0 +1,170 @@
+* {margin: 0; padding: 0;
+text-decoration: none;}
+body{
+    font-family: 'NanumSquare', sans-serif !important;
+}
+
+
+
+.box1{
+    height: 2475px;
+    background-image: url('img/bg01.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.wrap1{}
+
+.wrap2{}
+
+.con1_1{
+    border: 0px solid blue;
+    padding-top: 66px;
+    text-align: center;
+    
+    font-weight: 400;
+    font-size: 30px;
+    color: #fff;
+
+}
+.con1_2{
+    border: 0px solid blue;
+    margin-top: 239.8px;
+}
+.con1_3{
+    border: 0px solid blue;
+    text-align: center;
+    font-weight: 400;
+    font-size: 40px;
+    color: #012368;
+    margin-top: 86px;
+    line-height: 71px;
+    padding-bottom: 250px;
+}
+
+.con1_4{
+    border: 0px solid blue;  
+}
+
+.box2{
+    height: 759px;
+}
+.con2_1{
+    margin-top: 130px;
+}
+.con2_2{
+    text-align: center;
+    line-height: 80px;
+    margin-top: 40px;
+    font-size: 35px;
+    color: #000;
+    
+}
+.con2_2t {
+    font-weight: 400;
+    
+}
+
+.box3{
+    height: 1446px;
+    background-image: url('img/bg02.png');
+    background-repeat: no-repeat;
+    background-position: center 20%;
+    margin-bottom : 173px;
+  
+}
+.con3_1{
+    margin-top: 136px;
+}
+.con3_2{
+    text-align: center;
+    line-height: 80px;
+    margin-top: 234px;
+    font-size: 35px;
+    color: #000;
+}
+
+.box4{
+    height: 1676px;
+    background-image: url('img/bg03.png');
+    background-repeat: no-repeat;
+    background-position:  center top;
+}
+.con4_2{
+    text-align: center;
+    font-weight: 400;
+    line-height: 80px;
+    font-size: 35px;
+    margin-top: 121px;
+}
+.box5{
+    height: 1231px;
+    /* 제발 이미지 바꾸기 */
+    background-image: url('img/co06.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+footer {
+    height: 200px;
+    background-color: #012368 ;
+
+}
+.con5_1{
+    padding-top: 51px;
+}
+
+.con5_1t{
+    text-align: right;
+    width: 585px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 34px;
+    margin-left: 515px;
+    margin-top: 21px;
+    color: white;
+}
+
+.box1 > .wrap1 {
+    width: 1100px;
+    height: 2475px;
+    border: 0px solid red;
+    margin: 0 auto;
+}
+
+.box2 > .wrap3 {
+    width: 1100px;
+    height: 759px;
+    border: 0px solid red;
+    margin: 0 auto;
+
+}
+
+.box3 > .wrap4{
+    width: 1100px;
+    height: 1446px;
+    border: 0px solid red;
+    margin: 0 auto;
+}
+
+.box4 > .wrap5{
+    width: 1100px;
+    height: 1676px;
+    border: 0px solid red;
+    margin: 0 auto;
+}
+
+.box5 > .wrap6{
+    width: 1100px;
+    height: 1231px;
+    border: 0px solid red;
+    margin: 0 auto;
+}
+footer > .wrap7{
+    width: 1100px;
+    height: 200px;
+    border: 0px solid red;
+    margin: 0 auto;
+}
